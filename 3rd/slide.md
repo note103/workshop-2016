@@ -621,7 +621,7 @@ ___
 
     my %animal = (
         dog_key => $dog_ref,
-    ); # dog_keyをkey, $dog_refをvalueとする%animalを作る
+    ); # $dog_refをvalueとする%animalを作る
 
 一度にまとめて書くこともできます。
 
