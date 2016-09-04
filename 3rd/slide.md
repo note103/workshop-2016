@@ -479,8 +479,8 @@ ___
 
     animal
      ├─ dog
-     ｜    ├─ shiba
-     ｜    └─ bulldog
+     │    ├─ shiba
+     │    └─ bulldog
      └─ cat
 
 先ほどはこのように書いてエラーが出ましたが、
@@ -563,11 +563,11 @@ ___
 
     animal
      ├─ dog
-     ｜    ├─ shiba
-     ｜    └─ bulldog
+     │    ├─ shiba
+     │    └─ bulldog
      ├─ cat
-     ｜    ├─ mike
-     ｜    └─ abyssinian
+     │    ├─ mike
+     │    └─ abyssinian
      └─ bird
            ├─ eagle
            └─ crow
@@ -582,8 +582,8 @@ ___
 
     animal
      ├─ dog
-     ｜    ├─ name: 'Taro'
-     ｜    └─ color: 'brown'
+     │    ├─ name: 'Taro'
+     │    └─ color: 'brown'
      └─ cat
 
 ハッシュを使えば1階層分の処理は可能ですが、
@@ -696,8 +696,8 @@ ___
 
     animal
      ├─ dog
-     ｜    ├─ name: 'Taro'
-     ｜    └─ color: 'brown'
+     │    ├─ name: 'Taro'
+     │    └─ color: 'brown'
      └─ cat
            ├─ name: 'Tama'
            └─ color: 'white'
