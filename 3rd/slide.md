@@ -418,8 +418,8 @@ ___
 
     animal
      ├─ dog
-     ｜    ├─ shiba
-     ｜    └─ bulldog
+     │    ├─ shiba
+     │    └─ bulldog
      └─ cat
 
 配列を使えば1階層分の処理は可能ですが、
