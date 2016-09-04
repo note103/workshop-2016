@@ -714,7 +714,7 @@ ___
 
 以下のハッシュリファレンスを普通にprintしてみましょう。
 
-    my $animal_ref = {
+    my $animal = {
         dog => {
             name => 'Taro',
             color => 'brown',
@@ -724,7 +724,7 @@ ___
             color => 'white',
         },
     };
-    print $animal_ref; #=> HASH(0x7f8aa2029380)
+    print $animal; #=> HASH(0x7f8aa2029380)
 
 ___
 ## データの中身を全部見る
@@ -740,8 +740,8 @@ ___
 このようなときは、`Data::Dumper` モジュールを使うと、リファレンスが扱っている「参照」の中身を確認できます。
 
     use Data::Dumper;
-    my $animal_ref = { #同上 };
-    print Dumper($animal_ref);
+    my $animal = { #同上 };
+    print Dumper($animal);
     # $VAR1 = {
     #         'dog' => {
     #                     'color' => 'brown',
